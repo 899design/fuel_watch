@@ -19,3 +19,12 @@ yd_prices = list_date(yesterday)
 
 
 FileNotFoundError
+
+
+
+try:
+    pass
+except expression as identifier:
+    pass
+else:
+    pass
