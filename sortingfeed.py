@@ -19,12 +19,13 @@ to_prices = list_date(tomorrow)
 yd_prices = list_date(yesterday)
 
 # Lists 2
-unleaded_location = ['location','price',"address"]
+unleaded_today = dict.fromkeys(today, 'location')
 
 
 
-
-pprint (unleaded_location)
+print ('space test')
+pprint (unleaded_today)
+print ('space test')
 
 
 for entry in today_prices:

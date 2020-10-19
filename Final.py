@@ -13,18 +13,3 @@ today = ''
 tomorrow = '&Day=tomorrow'
 yesterday = '&Day=yesterday'
 
-today_prices = list_date(today)
-to_prices = list_date(tomorrow)
-yd_prices = list_date(yesterday)
-
-
-FileNotFoundError
-
-
-
-try:
-    pass
-except expression as identifier:
-    pass
-else:
-    pass
