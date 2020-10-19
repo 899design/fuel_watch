@@ -5,7 +5,7 @@ from pprint import pprint
 
 
 def list_date(today_tomorrow):
-    current_feed = feedparser.parse('https://www.fuelwatch.wa.gov.au/fuelwatch/fuelWatchRSS?Suburb=Karratha'+str(today_tomorrow))
+    current_feed = feedparser.parse('https://www.fuelwatch.wa.gov.au/fuelwatch/fuelWatchRSS?Suburb=Byford'+str(today_tomorrow))
     return current_feed ['entries']
 
 
@@ -19,7 +19,7 @@ to_prices = list_date(tomorrow)
 yd_prices = list_date(yesterday)
 
 # Lists 2
-unleaded_today = dict.fromkeys(today, 'location')
+unleaded_today = dict.fromkeys(today_prices,['location'])
 
 
 
