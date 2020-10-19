@@ -18,3 +18,4 @@ to_prices = list_date(tomorrow)
 yd_prices = list_date(yesterday)
 
 
+FileNotFoundError
